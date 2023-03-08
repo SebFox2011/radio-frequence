@@ -40,7 +40,7 @@ const Table = ({ data }) => {
 
     return (<>
         <div style={{ display: 'flex', flexDirection: 'column', overflowY: 'scroll' }}>
-            <table {...getTableProps()} style={{ border: 'solid 2px blue' }}>
+            <table {...getTableProps()} style={{ border: 'solid 2px #373d47' }}>
                 <thead>
                     {headerGroups.map(headerGroup => (
                         <tr {...headerGroup.getHeaderGroupProps()}>

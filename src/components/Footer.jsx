@@ -1,4 +1,5 @@
 import React from "react";
+import { Heart } from 'react-feather'
 
 const Footer = () => {
     return <>
@@ -8,7 +9,7 @@ const Footer = () => {
             {'. '}
             <a href="mailto:lazuryte35@gmail.com"> Pour toutes demandes</a>
         </p>
-        <p>Fait avec amour par F4JRN et ReactJS</p>
+        <p >Fait avec <Heart style={{ color: 'red' }} /> par F4JRN et ReactJS</p>
         <h6>Ce site internet demande la localisation de l'utilisateur pour connaitre sa distance par rapport aux relais mais ne conserve aucune donnée conformément aux réglementations.</h6>
     </>
 }
